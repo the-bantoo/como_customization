@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include como_customization *.css
+recursive-include como_customization *.csv
+recursive-include como_customization *.html
+recursive-include como_customization *.ico
+recursive-include como_customization *.js
+recursive-include como_customization *.json
+recursive-include como_customization *.md
+recursive-include como_customization *.png
+recursive-include como_customization *.py
+recursive-include como_customization *.svg
+recursive-include como_customization *.txt
+recursive-exclude como_customization *.pyc
